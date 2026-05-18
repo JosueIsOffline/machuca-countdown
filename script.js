@@ -9,6 +9,11 @@ const phrases = [
   "Girls and boys",
   "Cinnamon hoy?",
   "Yo soy un pariguayo?",
+  "Machuca shuffle",
+  "Proveeale",
+  "Permitame un minuto para conversar de la biblia con usted",
+  "El Anciano",
+  "Te gustaria acompañame al salon del reino",
 ];
 
 const els = {
