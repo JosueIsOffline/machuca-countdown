@@ -14,6 +14,8 @@ const phrases = [
   "Permitame un minuto para conversar de la biblia con usted",
   "El Anciano",
   "Te gustaria acompañame al salon del reino",
+  "Lo pillas?",
+  "En bacaneria"
 ];
 
 const els = {
