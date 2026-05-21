@@ -13,7 +13,7 @@ const phrases = [
   "Proveeale",
   "Permitame un minuto para conversar de la biblia con usted",
   "El Anciano",
-  "Te gustaria acompañame al salon del reino",
+  "Te gustaria acompañarme al salon del reino",
   "Lo pillas?",
   "En bacaneria",
 ];
@@ -348,7 +348,13 @@ function shootingStar() {
     "linear-gradient(90deg, transparent, rgba(255,255,255,0.92) 55%, rgba(255,255,255,0.15))";
   spaceBg().appendChild(el);
 
-  gsap.set(el, { x: startX, y: startY, rotation: angle, opacity: 0, scaleX: 0.15 });
+  gsap.set(el, {
+    x: startX,
+    y: startY,
+    rotation: angle,
+    opacity: 0,
+    scaleX: 0.15,
+  });
   gsap
     .timeline({ onComplete: () => el.remove() })
     .to(el, { opacity: 1, scaleX: 1, duration: 0.07, ease: "power3.out" })
