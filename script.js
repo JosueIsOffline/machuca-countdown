@@ -1,6 +1,6 @@
 // ── CONFIG ──────────────────────────────────────────────
 // República Dominicana = UTC-4 (sin horario de verano)
-const TARGET_DATE = new Date("2026-06-02T17:30:00-04:00");
+const TARGET_DATE = new Date("2026-06-02T12:00:00-04:00");
 const START_DATE = new Date("2026-05-17T00:00:00-04:00");
 // ────────────────────────────────────────────────────────
 
